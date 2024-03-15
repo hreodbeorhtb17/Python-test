@@ -1,0 +1,13 @@
+def simple_calculator(a, b, operation):
+    if operation == '+':
+        return a + b
+    elif operation == '-':
+        return a - b
+    elif operation == '*':
+        return a * b
+    elif operation == '/':
+        return a / b
+    else:
+        return "Unsupported operation"
+
+print(simple_calculator(10, 5, '+'))
